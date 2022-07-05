@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * * print_times_table - Prints the n times table
+ * print_times_table - Prints the n times table
  * @n: number times table (0 < n <= 15)
  * Return: no return
  */
@@ -25,15 +25,14 @@ _putchar(op + 48);
 }
 else if (op <= 99)
 {
-
 _putchar(32);
-_putchar((op / 10) +8);
-_ar((op % 10) + 48);
+_putchar((op / 10) + 48);
+_putchar((op % 10) + 48);
 }
 else
 {
-_putchar(((op / 100)10) + 48);
-_putar(((op / 10) % 10) + 48);
+_putchar(((op / 100) % 10) + 48);
+_putchar(((op / 10) % 10) + 48);
 _putchar((op % 10) + 48);
 }
 }
