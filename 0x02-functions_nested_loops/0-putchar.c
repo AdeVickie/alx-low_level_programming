@@ -14,3 +14,5 @@ void print _putchar(void)
 	_putchar("a");
 	_putchar("r");
 	_putchar("\n");
+	return 0;
+	gcc 0-putchar.c
