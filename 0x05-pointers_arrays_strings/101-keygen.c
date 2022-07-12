@@ -15,6 +15,7 @@ while (sum < 2772)
 {
 password[index] = 33 + rand() % 94;
 sum += password[index++];
+}
 password[index] = '\0';
 if (sum != 2772)
 {
