@@ -1,25 +1,26 @@
-/*
- * author:va
- * File: 0-strcat.c*
- */
 #include "main.h"
- /**
-  * *_strcat - concatenates two strings
-  * @dest: pointer destination
-  * @src: pointer source
-  * Return: void
-  */
+/**
+ * _strcat - concatenates two strings
+ * @dest: input value
+ * @src: input value
+ * Return: void
+ */
 char *_strcat(char *dest, char *src)
 {
-/*initializing the return value contecated*/
-char *contecated = dest;
-/*going to end of dest */
-while (*dest)
-dest++;
-/*adding *src characters to dest */
-while (*src)
-*dest++ = *src++;
-/*adding terminating null byte to dest */
-*dest = '\0';
-return (contecated);
+int i;
+int j;
+i = 0;
+while (dest[i] != '\0')
+{
+i++;
+}
+j = 0;
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+i++;
+j++;
+}
+dest[i] = '\0';
+return (dest);
 }
