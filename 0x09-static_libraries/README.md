@@ -1,1 +1,1 @@
-ALX
+Static library
