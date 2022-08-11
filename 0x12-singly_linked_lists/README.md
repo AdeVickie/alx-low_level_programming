@@ -1,1 +1,1 @@
-singly_linked_lists
+Write a function that frees a list_t list.
